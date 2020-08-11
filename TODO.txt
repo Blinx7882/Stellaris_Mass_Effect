@@ -1,0 +1,15 @@
+This file contains everything that needs to be done/fixed
+
+TODO:
+
+- Figure out how to start with a habitat as a starting planet for the Quarians (might be hard/impossible with the new origins mechanic. Could be blocking habitat starts?)
+
+- Adjust/fix orbital distances in each system so that some planets aren't so close to their respective suns (Do a check of each system)
+
+- Add portraits for use of custom empires, so that Mass Effect empires can be created
+
+- Add civics/traits that better reflect the Mass Effect empires lore wise
+
+- Figure out if another crisis event can be added to the game, or if one can be adjusted
+
+- Look at adding events to the game to better reflect Mass Effect

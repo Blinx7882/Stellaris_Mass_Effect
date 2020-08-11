@@ -1,0 +1,100 @@
+### Asari Home System
+asari_system_initializer = {
+	
+	name = "Parnitha"
+	class = "sc_f"
+	usage = custom_empire
+	init_effect = {
+		
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+	
+	planet = {
+		
+		name = "Parnitha"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Kurinth"
+		class = "pc_gas_giant"
+		orbit_distance = 23
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Thessia"
+		class = "pc_tundra"
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		starting_planet = yes
+		tile_blockers = none
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Piares"
+		class = "pc_desert"
+		orbit_distance = 28
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Lucen"
+		class = "pc_asteroid"
+		orbit_distance = 29
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Janiri"
+		class = "pc_gas_giant"
+		orbit_distance = 32
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Athame"
+		class = "pc_gas_giant"
+		orbit_distance = 34
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Tevura"
+		class = "pc_gas_giant"
+		orbit_distance = 37
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		has_ring = no
+	}
+}

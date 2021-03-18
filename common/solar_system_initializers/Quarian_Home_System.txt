@@ -1,0 +1,43 @@
+### Quarian Home System - Fleet location during the Tali ME2 loyalty mission
+quarian_system_initializer = {
+	
+	name = "Raheel-Leyya"
+	class = "sc_binary_5"
+	usage = custom_empire
+	init_effect = {
+		
+		every_neighbor_system = {
+			
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+	
+	planet = { ### This is for systems with more than 1 star
+		
+		class = star
+		size = { min = 25 max = 30 }
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		
+		class = star
+		size = { min = 23 max = 27 }
+		orbit_distance = 18
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		
+		name = "The anchor"
+		class = "pc_habitat"
+		orbit_distance = 40
+		starting_planet = yes
+	}
+}

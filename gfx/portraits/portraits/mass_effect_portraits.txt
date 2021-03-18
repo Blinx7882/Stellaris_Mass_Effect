@@ -1,0 +1,32 @@
+portraits = {
+
+	#Quarians
+	quarian01 = {
+		entity = "quarian_portrait"	clothes_selector = "no_texture"		hair_selector = "no_texture"	greeting_sound = "mammalian_01_greetings"
+		texturefile = "gfx/models/portraits/mammalian/quarian.dds"
+	}
+	
+	#Turians
+	turian01 = {
+		entity = "turian"	clothes_selector = "no_texture"		hair_selector = "no_texture"	greeting_sound = "mammalian_01_greetings"
+		texturefile = "gfx/models/portraits/mammalian/turian.dds"
+	}
+	
+	#Asari
+	asari01 = {
+		entity = "asari"	clothes_selector = "no_texture"		hair_selector = "no_texture"	greeting_sound = "mammalian_01_greetings"
+		texturefile = "gfx/models/portraits/mammalian/asari.dds"
+	}
+	
+	#Geth
+	geth01 = {
+		entity = "geth"	clothes_selector = "no_texture"		hair_selector = "no_texture"	greeting_sound = "mammalian_01_greetings"
+		texturefile = "gfx/models/portraits/mammalian/geth.dds"
+	}
+	
+	#Krogan
+	krogan01 = {
+		entity = "krogan"	clothes_selector = "no_texture"		hair_selector = "no_texture"	greeting_sound = "mammalian_01_greetings"
+		texturefile = "gfx/models/portraits/mammalian/krogan.dds"
+	}
+}

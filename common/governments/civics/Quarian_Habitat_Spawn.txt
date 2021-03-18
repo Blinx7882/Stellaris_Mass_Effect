@@ -1,0 +1,50 @@
+# New Civic to hopefully get a habitat start
+quarian_habitat_civic = {
+	
+	playable = { host_has_dlc = "Utopia" }
+	icon = "gfx/interface/icons/ascension_perks/ap_voidborn.dds"
+	starting_colony = pc_habitat
+	habitability_preference = pc_habitat
+	perferred_planet_class_neighbor = no
+	
+	potential = {
+		
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	
+	possible = {
+		
+		civics = {
+			
+			NOR = {
+				
+				value = civic_post_apocalyptic		# Modifies home planet
+				value = civic_life_seeded			# Modifies home planet
+				value = civic_agrarian_idyll		# Doesn't make sense thematically
+				value = civic_mechanists			# Makes initial generation tricky
+				value = civic_syncretic_evolution	# Makes initial generation tricky
+			}
+		}
+	}
+	
+	modification = no
+	
+	random_weight = {
+		
+		base = 1
+		modifier = {
+			
+			factor = 0
+			NOT = { host_has_dlc = "Utopia" }
+		}
+		
+		modifier = {
+			
+			factor = 0
+			has_global_flag = game_started
+		}
+	}
+	
+	description = "civic_quarian_habitat_tooltip"
+}

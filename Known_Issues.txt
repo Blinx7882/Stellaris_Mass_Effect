@@ -1,2 +1,0 @@
-- Creating a habitat for the Quarians isn't working as intended, they spawn with a planet in their solar system
-  This could be caused by the new DLC released by paradox, not wanting users to get around the DLC and doing it DIY unlike before

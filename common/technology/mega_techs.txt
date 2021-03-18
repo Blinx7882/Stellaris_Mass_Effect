@@ -1,0 +1,76 @@
+### Technology ###
+
+# The tech cost needs to be re-worked, it is too low
+tech_mega_minerals = {
+
+	cost = @tier5cost4
+	
+	area = engineering # tech belongs to the engineering tech tree
+	
+	icon = "tech_mining_1"
+	
+	tier = 1
+	
+	category = { materials }
+	
+	level = 1 #research once (I'm assuming)
+	
+	weight = @tier5weight20
+	
+	modifier = { # contains modifiers this tech changes
+		
+		planet_miners_minerals_produces_mult = 2.0 #200% increase to mineral production on planets
+	}
+}
+
+tech_mega_alloys = {
+	
+	cost = @tier4cost4
+	#cost = 0
+	
+	area = engineering
+	
+	icon = "tech_advanced_metallurgy_1"
+	
+	tier = 1
+	#tier = 0
+	
+	category = { materials }
+	
+	level = 1
+	
+	weight = @tier5weight20
+	
+	#start_tech = yes #testing tech
+	
+	modifier = {
+		
+		planet_metallurgists_produces_mult = 2.0 #modifer alloy production
+	}
+}
+
+tech_mega_alloysII = {
+	
+	cost = @tier5cost4
+	
+	area = engineering
+	
+	icon = "tech_advanced_metallurgy_2"
+	
+	tier = 2
+	
+	category = { materials }
+	
+	level = 1
+	
+	prerequisites = { "tech_mega_alloys" }
+	
+	weight = @tier5weight20
+	
+	modifier = {
+		
+		planet_metallurgists_produces_mult = 2.0 #200% increase
+	}
+}
+
+### End of file ###

@@ -1,0 +1,85 @@
+### Salarian Home System
+salarian_system_initializer = {
+	
+	name = "Pranas"
+	class = "sc_g"
+	
+	usage = custom_empire
+	
+	init_effect = {
+	
+		every_neighbor_system = {
+			
+			set_star_flag = empire_cluster
+			
+			every_neighbor_system = {
+				
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+	
+	planet = {
+		
+		name = "Pranas"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 38
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Saradril"
+		class = "pc_molten"
+		orbit_distance = 23
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Sur'Kesh"
+		class = "pc_continental"
+		orbit_distance = 28
+		orbit_angle = { min = 90 max = 270 }
+		size = 27
+		has_ring = no
+		starting_planet = yes
+		tile_blockers = none
+		
+	}
+	
+	planet = {
+		
+		name = "Dragel"
+		class = "pc_barren_cold"
+		orbit_distance = 34
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Paeto"
+		class = "pc_asteroid"
+		orbit_distance = 36
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		
+		name = "Halegeuse"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = 34
+		has_ring = no
+	}
+}

@@ -1,0 +1,50 @@
+#####################
+#
+# Turian Origin
+#
+#####################
+
+origin_turian_unification_war = {
+	is_origin = yes # Makes this civic an origin instead
+	icon = "gfx/interface/icons/origins/origin_turian_unification_war.dds"
+	picture = GFX_origin_turian_unification_war
+	
+	
+	# Make it so that the origin can't be used by gestalt consciousness empires
+	# Not to be used for Machines Empires, only for biological empires
+	possible = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_machine_intelligence } }
+	}
+	
+	# should start on Palaven
+	modification = no
+	
+	initializers = {
+		turian_system_initializer
+	}
+	
+	potential = {
+		always = yes
+	}
+	
+	# What the origin does
+	modifier = {
+		weapon_type_energy_weapon_fire_rate_mult = 0.10
+		weapon_type_kinetic_weapon_fire_rate_mult = 0.10
+		weapon_type_explosive_weapon_fire_rate_mult = 0.10
+		country_unity_produces_mult = 0.05
+	}
+
+	flags = { custom_start_screen }
+	
+	random_weight = { 
+		base = 10 # allows for AI to pick this origin
+		modifier = {
+			factor = 0
+			has_global_flag = game_started
+		}
+	}
+	
+	description = "origin_turian_unification_war_tooltip"
+}

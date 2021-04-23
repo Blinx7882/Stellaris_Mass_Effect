@@ -1,6 +1,5 @@
 ### Technology ###
 
-# The tech cost needs to be re-worked, it is too low
 tech_mega_minerals = {
 
 	cost = @tier5cost4

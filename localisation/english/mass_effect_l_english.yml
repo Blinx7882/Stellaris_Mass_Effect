@@ -1,0 +1,88 @@
+﻿l_english:
+
+###############
+#
+# Solar Systems
+#
+###############
+
+#Geth system
+geth_system_initializer_NAME:0 "Geth Home System"
+geth_system_initializer_DESC:0 "Tikkun, home system of the Quarian race and the Geth, home to Rannoch."
+
+#Turian system
+turian_system_initializer_NAME:0 "Turian Home System"
+turian_system_initializer_DESC:0 "Trebia, home system to the Turian race, home to the fortress homeworld Palaven"
+
+#Krogan System
+krogan_system_initializer_NAME:0 "Krogan Home System"
+krogan_system_initializer_DESC:0 "Aralakh, home system to the tough Krogan race"
+
+#Quarian System
+quarian_system_initializer_NAME:0 "Quarian Home System"
+quarian_system_initializer_DESC:0 "A temporary home for the Quarian people, a system the Flotilla has resided in"
+
+#Asari System
+asari_system_initializer_NAME:0 "Asari Home System"
+asari_system_initializer_DESC:0 "Parnitha, the home solar system to the Asari race, homeworld Thessia"
+
+#Salarian System
+salarian_system_initializer_NAME:0 "Salarian Home System"
+salarian_system_initializer_DESC:0 "Pranas, the home system of the Salarian race, homeworld Sur'Kesh"
+
+###############
+#
+# Technology
+#
+###############
+
+#Tech mega mining
+tech_mega_minerals:0 "Mega Mining"
+tech_mega_minerals_desc:0 "Revolutionary techniques in mining has increased the efficiency of production to untold amounts"
+
+#tech mega alloy
+tech_mega_alloys:0 "Mega Alloy Production"
+tech_mega_alloys_desc:0 "Alloys have never been so plentiful"
+
+#tech mega alloy lvl 2
+tech_mega_alloysII:0 "Mega Alloy Production II"
+tech_mega_alloysII_desc:0 "Efficiency, efficiency, efficiency. Production is unrivalled throughout the galaxy"
+
+###############
+#
+# Civics
+#
+###############
+
+#quarian habitat
+civic_quarian_habitat_tooltip:0 "Start with a habitat"
+#turian naval supremecy
+civic_turian_naval_supremecy_NAME:0 "Turian Naval Supremecy"
+civic_turian_naval_supremecy_desc:0 "Turians possess the greatest navy the world has ever seen. 70% deduction to ship costs"
+
+###############
+#
+# Origins
+#
+###############
+
+### Turians Origins ###
+origin_turian_unification_war:0 "The Unification War"
+origin_turian_unification_war_desc:0 "Far removed from the heart of the empire, the first colonies grew distant and independent. Tensions rose and war erupted. The homeworld stood victorious and unified!"
+origin_turian_unification_war_tooltip:0 "Have increased weapon attack speed and increased unity!"
+
+###############
+#
+# Origin Start Screens
+#
+###############
+
+# Start screen
+START_SCREEN_UNIFICATION_WAR:0 "The first colonies of our great empire grew distant. Our newly formed star faring empire was stretched thin in its ability to govern and administrate every colony across the stars.\nThe rulers of the distant colonies encouraged isolatation from our empire, and xenophobia ran rampant. Those that once originated from [GetHomeWorldName] no longer felt any love for the homeworld and our great empire. Tensions rose and war erupted.\n\nThe colonies fought for independance, and nearly prevailed. But the mighty forces of [GetHomeWorldName] squashed the insurrectionists and their colonies. The rebels were brought back into the fold of our empire.\n\nThe people of [GetHomeWorldName] now stood together stronger than ever before, unified under one banner.\n\nOur civilisation has endured the fires of civil war at its genesis. Nothing will stand in our way."
+
+###############
+#
+# Events
+#
+###############
+

@@ -1,0 +1,19 @@
+######################
+#
+# Runs when the entering the game
+#
+######################
+
+namespace = mass_effect_game_begin
+
+# Turian unification war origin
+event = {
+	id = mass_effect_game_begin.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	# Event only fires if the player has the unification war origin
+	trigger = {
+		has_origin = origin_turian_unification_war
+	}
+}

@@ -2,8 +2,10 @@
 turian_system_initializer = {
 	
 	name = "Trebia" #Name of the system
+	usage = origin
 	class = "sc_f" #what type of star is present (orage dwarf star, etc)
-	usage = custom_empire
+	#usage = custom_empire
+	flags = { empire_home_system }
 	init_effect = {
 		
 		every_neighbor_system = {
@@ -20,7 +22,7 @@ turian_system_initializer = {
 	
 	planet = {
 		
-		name = "Trebia"
+		name = "NAME_Trebia"
 		class = "pc_f_star"
 		orbit_distance = 0
 		orbit_angle = 1

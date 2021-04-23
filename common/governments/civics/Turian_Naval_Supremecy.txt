@@ -1,0 +1,13 @@
+# Turian Naval Supremecy Civic
+turian_naval_supremecy_civic = {
+	
+	icon = "gfx/interface/icons/achievements/unstoppable_force.dds"
+	random_weight = { base = 6 }
+	modifier = {
+		ship_corvette_cost_mult = -0.70
+		ship_destroyer_cost_mult = -0.70
+		ship_cruiser_cost_mult = -0.70
+		ship_battleship_cost_mult = -0.70
+	}
+	description = "civic_turian_naval_supremecy"
+}

@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_origin_turian_unification_war"
+		texturefile = "gfx/event_pictures/origins/origin_turian_unification_war.dds"
+		alwaystransparent = yes
+	}
+}

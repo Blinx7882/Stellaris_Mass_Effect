@@ -1,0 +1,15 @@
+#####################
+#
+# Start Screens for origins
+#
+#####################
+
+# Start screen for Turian Unification War origin
+part = {
+	location = 0
+	localization = "START_SCREEN_UNIFICATION_WAR"
+	
+	trigger = {
+		has_origin = origin_turian_unification_war
+	}
+}
